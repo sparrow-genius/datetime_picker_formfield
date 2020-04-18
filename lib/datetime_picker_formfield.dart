@@ -82,6 +82,7 @@ class DateTimeField extends FormField<DateTime> {
                   errorText: field.errorText,
                   suffixIcon: state.shouldShowClearIcon(effectiveDecoration)
                       ? IconButton(
+                          padding: EdgeInsets.zero,
                           icon: resetIcon,
                           onPressed: state.clear,
                         )
